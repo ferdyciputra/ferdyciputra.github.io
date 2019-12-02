@@ -1,0 +1,54 @@
+.judul {
+    text-align: left;
+    color: white;
+    padding-top: 16%;
+}
+
+#hello {
+    color: blue;
+    padding: 5px;
+    background-color: white;
+    display: inline;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    margin-left: 8px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: block;
+    background-image: url();
+}
+
+.img1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.persegi {
+    border: 10px solid blue;
+    width: auto;
+    background-color: transparent;
+}
+
+#myService {
+    text-align: center;
+}
+
+.parallax {
+    background-image: url(images/office.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
