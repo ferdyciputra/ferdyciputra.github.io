@@ -25,13 +25,6 @@ cd dist
 ```
 git add .
 ```
-
-## Added all recent file changes
-
-```
-git add .
-```
-
 ## Create message commit
 
 ```
