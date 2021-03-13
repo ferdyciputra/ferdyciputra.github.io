@@ -11,6 +11,12 @@ document.addEventListener('DOMContentLoaded', function() {
     DataSourceApi.getDetailTeam();
 })
 
+//Set Footer Text
+let objectDate = new Date();
+let yearNow = objectDate.getFullYear();
+const elementFooterText = document.getElementById("footer-text");
+elementFooterText.innerHTML = `&copy; ${yearNow} Belajar Progressive Web Apps`;
+
 document.addEventListener('DOMContentLoaded', function() {
     let btnSaveDetail = document.getElementById('save-detail-team');
 

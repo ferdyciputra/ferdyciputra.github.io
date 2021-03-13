@@ -2,6 +2,12 @@ import DataSourceApi from '../js/data/data-source-api';
 import swal from 'sweetalert';
 import DataSourceDb from './data/db';
 
+//Set Footer Text
+let objectDate = new Date();
+let yearNow = objectDate.getFullYear();
+const elementFooterText = document.getElementById("footer-text");
+elementFooterText.innerHTML = `&copy; ${yearNow} Belajar Progressive Web Apps`;
+
 // Active sidebar nav
 const elems = document.querySelectorAll(".sidenav");
 M.Sidenav.init(elems);

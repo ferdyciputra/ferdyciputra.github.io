@@ -33,7 +33,7 @@ main {
 }
 
 .page-footer {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -135,4 +135,8 @@ ul.dropdown-content.select-dropdown li span {
 
 .card-detail-club {
     font-size: 14px;
+}
+
+.waves {
+    margin-bottom: -10px;
 }
